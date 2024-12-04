@@ -5,19 +5,19 @@
 @tailwind utilities;
 
 body {
-    @apply font-ubuntu bg-gray-600;
+    @apply font-ubuntu bg-bg text-white;
 }
 
 section {
-    @apply rounded-lg bg-black text-white;
+    @apply rounded-lg bg-fg border-2 border-white;
 }
 
 .title {
-    @apply text-center border-white p-1 font-bold text-green-600 border-b-2;
+    @apply text-center border-white p-1 font-bold border-b-2 block;
 }
 
 .b-title {
-    @apply text-center border-white p-1 font-bold text-green-600 border-t-2;
+    @apply text-center border-white p-1 font-bold border-t-2;
 }
 
 .box {
