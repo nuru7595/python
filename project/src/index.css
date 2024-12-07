@@ -9,7 +9,7 @@ body {
 }
 
 section {
-    @apply rounded-lg bg-fg border-2 border-white;
+    @apply rounded-lg bg-fg border-2 border-white my-3;
 }
 
 .title {
