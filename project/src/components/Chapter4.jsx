@@ -13,7 +13,7 @@ export default function Chapter4() {
                     <span>1</span> if . . . elif . . . else
                 </p>
                 <p>
-                    <span>2</span> Loading . . .
+                    <span>2</span> Use <span>for in</span> to loop through a list: <span>for item in list</span>.
                 </p>
                 <p>
                     <span>3</span> Loading . . .
