@@ -16,8 +16,8 @@ export default {
         ubuntu: ["Ubuntu", "sans-serif"]
       },
       colors: {
-        fg: '#4584b6',
-        bg: '#ffde57'
+        fg: '#ffde57',
+        bg: '#4584b6'
       }
     }
   },

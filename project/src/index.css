@@ -9,25 +9,21 @@ body {
 }
 
 section {
-    @apply rounded-lg bg-fg border-2 border-white my-3;
+    @apply rounded-3xl border-2 border-white my-6 overflow-hidden;
 }
 
-.title {
-    @apply text-center border-white p-2 font-bold border-b-2 block;
+section > div {
+    @apply border-y-2 border-white;
 }
 
-.b-title {
-    @apply text-center border-white p-2 font-bold border-t-2;
-}
-
-.box {
-    @apply px-2;
+h3 {
+    @apply text-center p-2 font-bold bg-fg text-black;
 }
 
 span {
-    @apply bg-bg text-fg rounded-full px-2 py-1;
+    @apply bg-black text-white rounded-full px-2 py-1;
 }
 
 p {
-    @apply py-2;
+    @apply leading-10 mx-3;
 }

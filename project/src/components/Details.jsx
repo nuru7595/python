@@ -1,10 +1,10 @@
 export default function Details() {
     return (
         <section>
-            <h3 className="title">Update - v4.1.0</h3>
-            <div className="box">
-                <p>Started on: <span>01 December 2024</span></p>
-                <p>Last Updated: <span>08 December 2024</span></p>
+            <h3>Update - v4.1.0</h3>
+            <div>
+                <p>Started on: 01 December 2024</p>
+                <p>Last Updated: <span>11 December 2024</span></p>
                 <p>
                     Source:{" "}
                     <a
@@ -12,11 +12,11 @@ export default function Details() {
                         target="_blank"
                         className="underline"
                     >
-                        python.org
+                        Python.org
                     </a>
                 </p>
             </div>
-            <h3 className="b-title"><span>Active</span></h3>
+            <h3>Active</h3>
         </section>
     );
 }
