@@ -1,6 +1,6 @@
 export default function Details() {
     return (
-        <section>
+        <section id="details">
             <h3>Update - v4.1.0</h3>
             <div>
                 <p>Started on: 01 December 2024</p>

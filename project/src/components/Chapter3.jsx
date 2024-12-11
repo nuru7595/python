@@ -2,7 +2,7 @@ import PythonRunner from "./PythonRunner.jsx";
 
 export default function Chapter1() {
     return (
-        <section>
+        <section id="chapter3">
             <h3>
                 <a
                     href="https://docs.python.org/3.13/tutorial/introduction.html"

@@ -1,6 +1,6 @@
 export default function Chapter1() {
     return (
-        <section>
+        <section id="chapter1">
             <h3>
                 <a
                     href="https://docs.python.org/3.13/tutorial/appetite.html"

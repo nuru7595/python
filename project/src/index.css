@@ -1,13 +1,16 @@
-@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap");
 
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
+html {
+    @apply scroll-smooth;
+}
+
 body {
     @apply font-ubuntu bg-bg text-white;
 }
-
 section {
     @apply rounded-3xl border-2 border-white my-6 overflow-hidden;
 }
@@ -17,7 +20,7 @@ section > div {
 }
 
 h3 {
-    @apply text-center p-2 font-bold bg-fg text-black;
+    @apply text-center p-2 font-bold;
 }
 
 span {
@@ -26,4 +29,9 @@ span {
 
 p {
     @apply leading-10 mx-3;
+}
+
+.no-scrollbar {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
 }
