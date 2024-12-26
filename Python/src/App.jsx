@@ -12,11 +12,11 @@ function App() {
     return (
         <>
             <Header />
-            <main className="mx-2 sm:flex gap-2">
-                <div className="hidden sm:block w-1/4">
+            <main className="mx-2 md:flex gap-2">
+                <div className="hidden md:block w-1/4">
                     <Sidebar />
                 </div>
-                <div className="sm:w-3/4">
+                <div className="md:w-3/4">
                     <Details />
                     <Chapter4 />
                     <Chapter3 />
